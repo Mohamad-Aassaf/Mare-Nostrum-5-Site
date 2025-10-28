@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MareNostrum 5 ACC</title>
+    <link href="fundamentos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="titulo">
+            <a href="https://www.top500.org/system/180238/" target="_blank" rel="noopener noreferrer">
+                MareNostrum 5 ACC
+            </a>
+        </h1>
+    </header>
+
+    <main>
+        <!-- Carrossel -->
+        <section class="carrossel-section">
+            <div class="carrossel" id="imagemCarrossel" aria-label="Galeria de imagens do MareNostrum 5">
+                <button class="carrossel-btn prev" aria-label="Imagem anterior">&#10094;</button>
+                <div class="carrossel-imagens">
+                    <img src="mare1.jpg" alt="MareNostrum 5 - Foto 1" class="ativo">
+                    <img src="mare2.jpg" alt="MareNostrum 5 - Foto 2">
+                    <img src="mare3.jpg" alt="MareNostrum 5 - Foto 3">
+                    <img src="mare4.jpg" alt="MareNostrum 5 - Foto 4">
+                    <img src="mare6.jpg" alt="MareNostrum 5 - Foto 5">
+                </div>
+                <button class="carrossel-btn next" aria-label="Próxima imagem">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Especificaçoes -->
+        <section class="tabela-section">
+            <h2>Especificações Técnicas</h2>
+            <div class="tabela-wrapper">
+                <table class="tabela-especificacoes">
+                    <thead>
+                        <tr>
+                            <th>Fabricante</th>
+                            <th>Núcleos</th>
+                            <th>Processador</th>
+                            <th>Rede</th>
+                            <th>Ano de instalação</th>
+                            <th>Sistema Operacional</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>EVIDEN</td>
+                            <td>680.960</td>
+                            <td>Xeon Platinum 8460Y+ 40C 2GHz</td>
+                            <td>Infiniband NDR200</td>
+                            <td>2023</td>
+                            <td>RedHat 9.1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Desempenho -->
+        <section class="tabela-section">
+            <h2 id="desempenho">Desempenho e Consumo de Energia</h2>
+            <div class="tabela-wrapper">
+                <table class="tabela-desempenho">
+                    <thead>
+                        <tr>
+                            <th>Desempenho do Linpack (Rmax)</th>
+                            <th>Pico Teórico (Rpico)</th>
+                            <th>Núcleos Máx.</th>
+                            <th>Consumo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>138,20 PFlops/s</td>
+                            <td>265,57 PFlops/s</td>
+                            <td>5.677.056</td>
+                            <td>2.560,00 kW</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Principal -->
+        <section class="conteudo-principal">
+            <article class="main-text">
+                <h2>O que é o MareNostrum?</h2>
+                <p>MareNostrum 5 é um supercomputador EuroHPC (European High Performance Computing) pré-exaescala hospedado no BSC-CNS (Barcelona Super Computer Center - Centro Nacional de Supercomputación). O sistema é fornecido pela Bull SAS combinando as arquiteturas Bull Sequana XH3000 e Lenovo ThinkSystem e possui um poder computacional de pico total de 314PFlops. O sistema disponibilizará 4 partições com diferentes características técnicas que em conjunto poderão cumprir os requisitos de qualquer utilizador de HPC.</p>
+                <p>Este supercomputador pré-exascala auxiliará o objetivo da UE de equipar a Europa com a mais avançada tecnologia de supercomputação e acelerar a capacidade de pesquisa em inteligência artificial (IA), facilitando novos avanços científicos que ajudarão a resolver importantes desafios globais. A intenção é abrir caminho para uma ampla gama de aplicações complexas específicas para computação de alto desempenho, incluindo pesquisa e engenharia climática, ciência de materiais e ciências da terra, abordando efetivamente certas tarefas que excedem os recursos da computação em nuvem.</p>
+                <p>O supercomputador custou cerca de 202 milhões de euros e foi em 50% financiado pela Comissão Européia, e os restantes 50% foram assumidos por Espanha (na sua maioria), Portugal e Turquia.</p>
+                <ul>
+                    <li>A comparticipação nos custos permitirá a cientistas de cada um dos três países usar o supercomputador em 50% do seu tempo de funcionamento.</li>
+                    <li>Os restantes 50% do tempo disponível serão distribuídos pela empresa europeia criada em 2018 para desenvolver a computação na União Europeia (UE), a EuroHPC, que abrirá concursos a nível europeu com esse objetivo.</li>
+                    <li>Para dar uma ideia da potência do MareNostrum 5, o BSC (Barcelona Supercomputing Center) compara a capacidade máxima de cálculo do supercomputador ao de mais de 380 mil computadores portáteis de gama média-alta. Os cálculos do MareNostrum 5 numa hora são equivalentes aos que um portátil desses faria em 46 anos.</li>
+                    <li>O supercomputador inaugurado hoje ocupa 800 metros quadrados num espaço que tem mais de seis metros de altura e é 23 vezes mais potente do que o predecessor (MareNostrum 4) e cerca de 10.000 vezes mais potente do que o primeiro MareNostrum.</li>
+                </ul>
+            </article>
+            <aside class="sidebar">
+                <h3>Galeria</h3>
+                <div class="sidebar-galeria">
+                    <img src="mare1.jpg" alt="MareNostrum 5 - Foto 1" loading="lazy">
+                    <img src="mare2.jpg" alt="MareNostrum 5 - Foto 2" loading="lazy">
+                    <img src="mare3.jpg" alt="MareNostrum 5 - Foto 3" loading="lazy">
+                    <img src="mare4.jpg" alt="MareNostrum 5 - Foto 4" loading="lazy">
+                    <img src="mare6.jpg" alt="MareNostrum 5 - Foto 5" loading="lazy">
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 MareNostrum 5 ACC. Projeto educacional.</p>
+    </footer>
+
+    <script src="fundamentos.js"></script>
+</body>
+
+</html>
